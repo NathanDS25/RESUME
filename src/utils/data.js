@@ -70,6 +70,7 @@ export const portfolioData = {
       "Overleaf",
       "OpenWeatherMap API",
       "Power BI",
+      "Excel",
       "psycopg2",
     ],
   },

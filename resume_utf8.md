@@ -116,5 +116,5 @@ __TECHNICAL SKILLS__
 - __Web & Frontend: __React\.js, HTML5, CSS3, Flask, Streamlit
 - __Data Science & ML: __Pandas, NumPy, Scikit\-learn, NLTK, TF\-IDF, VADER, FinBERT, LSTM, XGBoost, Matplotlib, Plotly, Seaborn, Chart\.js
 - __Databases: __PostgreSQL, SQL \(joins, CTEs, window functions, stored procedures, indexing\)
-- __Tools & Platforms: __Git, GitHub, Power BI, VS Code, Jupyter Notebook, Google Colab, Overleaf, TMDB API, OpenWeatherMap API, Spotify Web API, psycopg2
+- __Tools & Platforms: __Git, GitHub, Power BI, Excel, VS Code, Jupyter Notebook, Google Colab, Overleaf, TMDB API, OpenWeatherMap API, Spotify Web API, psycopg2
 
