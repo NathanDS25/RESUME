@@ -50,28 +50,14 @@ const Hero = () => {
           transition={{ duration: 0.5, delay: 0.6 }}
           style={{ display: 'flex', gap: '20px', flexWrap: 'wrap', alignItems: 'center' }}
         >
-          <button
-            onClick={async () => {
-              try {
-                const response = await fetch('/Nathan_DSouza_Resume.docx');
-                const blob = await response.blob();
-                const url = window.URL.createObjectURL(blob);
-                const a = document.createElement('a');
-                a.href = url;
-                a.download = 'Nathan_DSouza_Resume.docx';
-                document.body.appendChild(a);
-                a.click();
-                a.remove();
-                window.URL.revokeObjectURL(url);
-              } catch {
-                window.open('/Nathan_DSouza_Resume.docx', '_blank');
-              }
-            }}
+          <a
+            href="/Nathan_DSouza_Resume.docx"
+            download="Nathan_DSouza_Resume.docx"
             className="btn-primary"
-            style={{ cursor: 'pointer', border: 'none' }}
+            style={{ textDecoration: 'none' }}
           >
             <Download size={20} /> Download Resume
-          </button>
+          </a>
           
           <div style={{ display: 'flex', gap: '15px', marginLeft: '20px' }}>
             <a href={portfolioData.personalInfo.contact.github} target="_blank" rel="noreferrer" style={{ color: 'var(--text-muted)' }}>
