@@ -53,21 +53,7 @@ const Hero = () => {
           <button
             className="btn-primary"
             style={{ cursor: 'pointer', border: 'none', background: 'none' }}
-            onClick={() => {
-              fetch('/Nathan_DSouza_Resume.docx')
-                .then(res => res.blob())
-                .then(blob => {
-                  const file = new Blob([blob], {
-                    type: 'application/vnd.openxmlformats-officedocument.wordprocessingml.document'
-                  });
-                  const url = URL.createObjectURL(file);
-                  const link = document.createElement('a');
-                  link.href = url;
-                  link.download = 'Nathan_DSouza_Resume.docx';
-                  link.click();
-                  URL.revokeObjectURL(url);
-                });
-            }}
+            onClick={() => { window.location.href = '/Nathan_DSouza_Resume.docx'; }}
           >
             <Download size={20} /> Download Resume
           </button>
