@@ -1,4 +1,4 @@
-﻿export const portfolioData = {
+export const portfolioData = {
   personalInfo: {
     name: "Nathan Dsouza",
     tagline: "Software Engineer & Data Scientist",
@@ -152,6 +152,16 @@
     ],
   },
   certifications: [
+    {
+      title: "SQL (Advanced) Certificate",
+      issuer: "HackerRank",
+      link: "https://www.hackerrank.com/certificates/iframe/2b770eb710db"
+    },
+    {
+      title: "SQL (Intermediate) Certificate",
+      issuer: "HackerRank",
+      link: "https://www.hackerrank.com/certificates/iframe/59f9307df1f8"
+    },
     {
       title: "Quantitative Research Job Simulation",
       issuer: "Forage x JPMorgan Chase & Co.",

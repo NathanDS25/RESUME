@@ -97,6 +97,12 @@ __AI\-Driven Market Regime Detection in Emerging Markets: A Systematic Review__	
 - Identified a critical gap: absence of true multimodal fusion of price, sentiment, and macroeconomic data for explicit regime classification in emerging markets ΓÇö forming the motivation for the AI Regime Detection project above\.
 - Formulated three formal RQs, applied PRISMA\-aligned screening across four thematic clusters, and proposed deep fusion architectures \(LSTM \+ XGBoost \+ FinBERT\) as the most promising direction for future work\.
 
+__CERTIFICATIONS__
+ 
+- __SQL \(Advanced\) Certificate__  |  HackerRank  |  [Link](https://www.hackerrank.com/certificates/iframe/2b770eb710db)
+- __SQL \(Intermediate\) Certificate__  |  HackerRank  |  [Link](https://www.hackerrank.com/certificates/iframe/59f9307df1f8)
+- __Quantitative Research Job Simulation__  |  Forage x JPMorgan Chase & Co\.  |  [Link](https://forage-uploads-prod.s3.amazonaws.com/completion-certificates/Sj7temL583QAYpHXD/bWqaecPDbYAwSDqJy_Sj7temL583QAYpHXD_69a0257cb1f8e4b868415d6a_1774607223418_completion_certificate.pdf)
+ 
 __LEADERSHIP & EXTRACURRICULAR ACTIVITIES__
 
 __Founder & Director of Finance ΓÇö Finvest Finance Council, Fr\. CRCE__	*2024 ΓÇô Present*
