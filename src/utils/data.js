@@ -1,4 +1,4 @@
-export const portfolioData = {
+﻿export const portfolioData = {
   personalInfo: {
     name: "Nathan Dsouza",
     tagline: "Software Engineer & Data Scientist",
@@ -13,7 +13,7 @@ export const portfolioData = {
     {
       institution: "Fr. Conceicao Rodrigues College of Engineering",
       degree: "B.Tech in Computer Engineering",
-      duration: "2024 – 2028",
+      duration: "2024 â€“ 2028",
       details: "CGPA: 8.68",
     },
     {
@@ -33,7 +33,7 @@ export const portfolioData = {
     {
       role: "Founder & Director of Finance",
       organization: "Finvest Finance Council, Fr. CRCE",
-      duration: "2024 – Present",
+      duration: "2024 â€“ Present",
       description: [
         "Founded the college's first dedicated finance and investment club; organised workshops attended by 120+ students covering equity valuation, personal finance, and portfolio construction.",
         "Coordinated guest lectures from industry alumni in investment banking, asset management, and fintech, providing members with real-world career exposure.",
@@ -69,10 +69,21 @@ export const portfolioData = {
       "Google Colab",
       "Overleaf",
       "OpenWeatherMap API",
+      "Power BI",
       "psycopg2",
     ],
   },
   projects: [
+    {
+      title: "Global Electronics Sales & Customer Dashboard",
+      tech: ["Power BI", "DAX", "Power Query", "Data Modelling"],
+      points: [
+        "Architected an end-to-end Power BI solution to analyze electronics sales across multiple global regions, processing multi-national customer and transactional datasets.",
+        "Engineered a relational data model (Star Schema) in Power BI, integrating diverse data sources such as sales logs, customer demographics, and product inventories.",
+        "Developed advanced DAX measures to track KPIs including Year-over-Year (YoY) growth, Profit Margins, and Customer Acquisition Cost (CAC) by region.",
+        "Designed interactive visualizations including geographic maps for regional performance, heatmaps for sales density, and drill-through pages for granular customer insights.",
+      ],
+    },
     {
       title: "AI-Driven Market Regime Detection System",
       tech: ["Python", "LSTM", "XGBoost", "NLP", "FinBERT", "Pandas", "Scikit-learn"],
@@ -93,6 +104,7 @@ export const portfolioData = {
         "Developed a Flask REST API for CRUD operations and query optimizations with B-tree indexes.",
       ],
     },
+
     {
       title: "Netflix UI Clone",
       tech: ["React.js", "JavaScript", "CSS3"],
@@ -162,3 +174,4 @@ export const portfolioData = {
     { name: "Flask", level: "Low", percentage: 25 },
   ]
 };
+

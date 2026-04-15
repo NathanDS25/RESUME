@@ -1,4 +1,4 @@
-﻿__NATHAN DSOUZA__
+__NATHAN DSOUZA__
 
 \+91 9326539028  |  nathanneildsouza2021@gmail\.com  |  [LinkedIn](https://linkedin.com/in/nathan-dsouza-a81b28229)  |  [GitHub](https://github.com/NathanDS25)
 
@@ -33,6 +33,13 @@ __E\-Commerce Database System__	*Python, PostgreSQL, psycopg2, SQL, Flask, HTML/
 - Built stored procedures and triggers in PostgreSQL to automate inventory updates on order placement, enforce referential integrity, and log transaction events to an audit table\.
 - Developed a Flask REST API layer exposing CRUD endpoints for product management, order processing, and user authentication, connected to the PostgreSQL backend via psycopg2\.
 - Optimised query performance by adding B\-tree indexes on high\-frequency filter columns \(product category, order date, user ID\), reducing average query response time significantly on a dataset of 10,000\+ synthetic records\.
+ 
+__Global Electronics Sales & Customer Dashboard__	*Power BI, DAX, Power Query, Data Modelling*
+
+- Architected an end-to-end Power BI solution to analyze electronics sales across multiple global regions, processing multi-national customer and transactional datasets.
+- Engineered a relational data model (Star Schema) in Power BI, integrating diverse data sources such as sales logs, customer demographics, and product inventories.
+- Developed advanced DAX measures to track KPIs including Year-over-Year (YoY) growth, Profit Margins, and Customer Acquisition Cost (CAC) by region.
+- Designed interactive visualizations including geographic maps for regional performance, heatmaps for sales density, and drill-through pages for granular customer insights.
 
 __Netflix UI Clone__	*React\.js, HTML5, CSS3, JavaScript, TMDB API*
 
@@ -103,5 +110,5 @@ __TECHNICAL SKILLS__
 - __Web & Frontend: __React\.js, HTML5, CSS3, Flask, Streamlit
 - __Data Science & ML: __Pandas, NumPy, Scikit\-learn, NLTK, TF\-IDF, VADER, FinBERT, LSTM, XGBoost, Matplotlib, Plotly, Seaborn, Chart\.js
 - __Databases: __PostgreSQL, SQL \(joins, CTEs, window functions, stored procedures, indexing\)
-- __Tools & Platforms: __Git, GitHub, VS Code, Jupyter Notebook, Google Colab, Overleaf, TMDB API, OpenWeatherMap API, Spotify Web API, psycopg2
+- __Tools & Platforms: __Git, GitHub, Power BI, VS Code, Jupyter Notebook, Google Colab, Overleaf, TMDB API, OpenWeatherMap API, Spotify Web API, psycopg2
 
