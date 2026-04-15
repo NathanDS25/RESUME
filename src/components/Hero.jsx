@@ -50,14 +50,27 @@ const Hero = () => {
           transition={{ duration: 0.5, delay: 0.6 }}
           style={{ display: 'flex', gap: '20px', flexWrap: 'wrap', alignItems: 'center' }}
         >
-          <a
-            href="/Nathan_DSouza_Resume.docx"
-            download="Nathan_DSouza_Resume.docx"
+          <button
             className="btn-primary"
-            style={{ textDecoration: 'none' }}
+            style={{ cursor: 'pointer', border: 'none', background: 'none' }}
+            onClick={() => {
+              fetch('/Nathan_DSouza_Resume.docx')
+                .then(res => res.blob())
+                .then(blob => {
+                  const file = new Blob([blob], {
+                    type: 'application/vnd.openxmlformats-officedocument.wordprocessingml.document'
+                  });
+                  const url = URL.createObjectURL(file);
+                  const link = document.createElement('a');
+                  link.href = url;
+                  link.download = 'Nathan_DSouza_Resume.docx';
+                  link.click();
+                  URL.revokeObjectURL(url);
+                });
+            }}
           >
             <Download size={20} /> Download Resume
-          </a>
+          </button>
           
           <div style={{ display: 'flex', gap: '15px', marginLeft: '20px' }}>
             <a href={portfolioData.personalInfo.contact.github} target="_blank" rel="noreferrer" style={{ color: 'var(--text-muted)' }}>
