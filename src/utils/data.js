@@ -76,6 +76,16 @@ export const portfolioData = {
   },
   projects: [
     {
+      title: "Black-Scholes Option Pricing Model",
+      tech: ["Python", "NumPy", "SciPy", "Plotly", "Streamlit"],
+      points: [
+        "Implemented the full Black-Scholes closed-form model to price European call and put options with real-time parameter sensitivity analysis.",
+        "Computed and visualised all option Greeks (Delta, Gamma, Theta, Vega, Rho) as interactive 3D surface plots using Plotly.",
+        "Built an implied volatility solver using numerical root-finding (Brent's method) to back out market-implied vol from observed option prices.",
+        "Developed a Monte Carlo simulation engine for option P&L distribution across thousands of price paths, with comparison against Black-Scholes analytical prices.",
+      ],
+    },
+    {
       title: "Global Electronics Sales & Customer Dashboard",
       tech: ["Power BI", "DAX", "Power Query", "Data Modelling"],
       points: [
