@@ -135,6 +135,14 @@ export const portfolioData = {
       ],
     },
     {
+      title: "Netflix Content Analysis & EDA",
+      tech: ["Python", "Pandas", "Plotly", "Seaborn", "Jupyter Notebook"],
+      points: [
+        "Performed comprehensive EDA on the Netflix dataset (~8,800 titles), uncovering trends in content type, genre popularity, and regional production through interactive Plotly visualisations.",
+        "Derived key business insights: peak content addition period (2018–2020), US/India production dominance, and a structural shift from movies toward TV shows post-2018.",
+      ],
+    },
+    {
       title: "Fake News Detection System",
       tech: ["Python", "Scikit-learn", "NLTK", "Logistic Regression"],
       points: [
